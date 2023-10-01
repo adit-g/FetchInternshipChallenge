@@ -11,7 +11,7 @@ import SwiftUI
 struct FetchInternshipChallengeApp: App {
     var body: some Scene {
         WindowGroup {
-            ItemsListView()
+            ContentView()
         }
     }
 }

@@ -10,8 +10,11 @@
 		A93FEE582AC8E00200263876 /* FetchInternshipChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93FEE572AC8E00200263876 /* FetchInternshipChallengeApp.swift */; };
 		A93FEE5C2AC8E00200263876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93FEE5B2AC8E00200263876 /* Assets.xcassets */; };
 		A93FEE5F2AC8E00200263876 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93FEE5E2AC8E00200263876 /* Preview Assets.xcassets */; };
-		A93FEE662AC8E1E000263876 /* ItemsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93FEE652AC8E1E000263876 /* ItemsModel.swift */; };
 		A93FEE682AC8E86E00263876 /* ItemsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93FEE672AC8E86E00263876 /* ItemsListView.swift */; };
+		A93FEE6C2AC92D8500263876 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93FEE6B2AC92D8500263876 /* ContentView.swift */; };
+		A93FEE6E2AC9306000263876 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93FEE6D2AC9306000263876 /* Item.swift */; };
+		A93FEE702AC943BA00263876 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93FEE6F2AC943B900263876 /* TabBarView.swift */; };
+		A93FEE722AC943E400263876 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93FEE712AC943E400263876 /* TabBarItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,8 +22,11 @@
 		A93FEE572AC8E00200263876 /* FetchInternshipChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchInternshipChallengeApp.swift; sourceTree = "<group>"; };
 		A93FEE5B2AC8E00200263876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A93FEE5E2AC8E00200263876 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A93FEE652AC8E1E000263876 /* ItemsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsModel.swift; sourceTree = "<group>"; };
 		A93FEE672AC8E86E00263876 /* ItemsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsListView.swift; sourceTree = "<group>"; };
+		A93FEE6B2AC92D8500263876 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A93FEE6D2AC9306000263876 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A93FEE6F2AC943B900263876 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		A93FEE712AC943E400263876 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +60,10 @@
 			isa = PBXGroup;
 			children = (
 				A93FEE572AC8E00200263876 /* FetchInternshipChallengeApp.swift */,
-				A93FEE652AC8E1E000263876 /* ItemsModel.swift */,
+				A93FEE6F2AC943B900263876 /* TabBarView.swift */,
+				A93FEE712AC943E400263876 /* TabBarItem.swift */,
+				A93FEE6D2AC9306000263876 /* Item.swift */,
+				A93FEE6B2AC92D8500263876 /* ContentView.swift */,
 				A93FEE672AC8E86E00263876 /* ItemsListView.swift */,
 				A93FEE5B2AC8E00200263876 /* Assets.xcassets */,
 				A93FEE5D2AC8E00200263876 /* Preview Content */,
@@ -140,8 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A93FEE662AC8E1E000263876 /* ItemsModel.swift in Sources */,
+				A93FEE6E2AC9306000263876 /* Item.swift in Sources */,
 				A93FEE582AC8E00200263876 /* FetchInternshipChallengeApp.swift in Sources */,
+				A93FEE6C2AC92D8500263876 /* ContentView.swift in Sources */,
+				A93FEE722AC943E400263876 /* TabBarItem.swift in Sources */,
+				A93FEE702AC943BA00263876 /* TabBarView.swift in Sources */,
 				A93FEE682AC8E86E00263876 /* ItemsListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

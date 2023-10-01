@@ -8,25 +8,22 @@
 import SwiftUI
 
 struct ItemsListView: View {
-    var items = ["item1", "item2", "item3", "item4"]
+    var items: [Item]
     
-    
+    // takes an array of items and just displays them in a list
     var body: some View {
-        NavigationStack {
-            List {
-                ForEach(items, id: \.self) { item in
-                    Text(item)
-                        .font(.title2)
-                }
-            }
-            .listStyle(.plain)
-            .navigationTitle("Items")
+        List(items, id: \.id) { item in
+            Text(item.name ?? "")
+                .foregroundColor(.black)
+                .font(.title2)
+                .listRowBackground(Color.white)
         }
+        .listStyle(.plain)
+        .background(.white)
+        .scrollContentBackground(.hidden)
+        .ignoresSafeArea()
+        
     }
 }
 
-struct ItemsListView_Previews: PreviewProvider {
-    static var previews: some View {
-        ItemsListView()
-    }
-}
+
